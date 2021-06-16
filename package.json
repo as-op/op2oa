@@ -1,0 +1,14 @@
+{
+  "name": "op2oa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "convert": "apib2swagger -i apiv3/index.apib -o swagger.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apib2swagger": "^1.12.0"
+  }
+}
