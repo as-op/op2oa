@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "convert": "apib2swagger -i apiv3/index.apib -o swagger.json"
+    "swagger": "apib2swagger -i apiv3/index.apib -o swagger.json",
+    "openapi": "swagger2openapi -o openapi.json swagger.json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apib2swagger": "^1.12.0"
+    "apib2swagger": "^1.12.0",
+    "swagger2openapi": "^7.0.6"
   }
 }
